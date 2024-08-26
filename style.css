@@ -1,0 +1,86 @@
+body {
+    color: black;
+    background: rgb(255, 255, 255);
+    margin: 0px;
+    font-size: 20px;
+    
+}
+
+header {
+    font-size: 80px;
+    font-family: Arial;
+    font-style: normal;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    border-bottom: solid 3px black;
+    color: rgb(255, 153, 0);
+    background-color: black;
+}
+
+title {
+    font: family thin 100px;
+}
+h1 {
+    font-size: 45px;
+    font-family: arial;
+    margin: 20px;
+text-align: left;
+}
+p {
+    font-size: 30px;
+    font-family: arial;
+    margin: 20px;
+    margin-bottom: 50px;
+    text-align: left;
+}
+iframe {
+    border: solid 2px rgb(255, 153, 0);
+    margin: 100px;
+    width: 85%;
+    height: 500;
+    margin-top: 5px;
+}
+
+.chamada-texto {
+    margin-right: 20px
+}
+
+img {
+    height: 200px;
+    margin: 20px;
+}
+h2 {
+    font-family: arial;
+    font-weight: bold;
+    margin: 20px;
+    border-bottom-left-radius: 2px black;
+}
+section{
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.chamada {
+    background: rgb(184,156,213);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid rgb(255, 153, 0);
+}
